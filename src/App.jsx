@@ -2,15 +2,18 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import fallbackPayload from './data/fallbackTeasers.json';
 
 /**
- * Parses a shorthand dollar string like "$19.2B" or "$24.0M" into numeric billions/millions for portfolio totals.
+ * Parses a shorthand dollar string or range like "$17.03M – $21.14M" or "$57.8B" into millions for portfolio totals.
+ * If a range is provided (e.g. "$17.03M – $21.14M"), uses the target upper bound of the range.
  */
 function parseDollarMetricToMillions(value = '') {
   const clean = String(value).replace(/,/g, '').trim();
-  const match = clean.match(/\$([\d.]+)\s*([BMK])?/i);
-  if (!match) return 0;
-  const amount = Number.parseFloat(match[1]);
+  const matches = [...clean.matchAll(/\$([\d.]+)\s*([BMK])?/gi)];
+  if (matches.length === 0) return 0;
+
+  const targetMatch = matches[matches.length - 1];
+  const amount = Number.parseFloat(targetMatch[1]);
   if (Number.isNaN(amount)) return 0;
-  const unit = (match[2] || '').toUpperCase();
+  const unit = (targetMatch[2] || '').toUpperCase();
   if (unit === 'B') return amount * 1000;
   if (unit === 'M') return amount;
   if (unit === 'K') return amount / 1000;
@@ -158,7 +161,7 @@ export default function App() {
           </div>
 
           <h1 className="portal-title">
-            Enterprise Picard — Venture Portfolio Blind Teaser Matrix
+            Venture Portfolio — Blind Teaser &amp; Capital Metrics Matrix
           </h1>
           <p className="portal-subtitle">
             Dynamic pre-NDA executive summaries pulled directly from each venture&apos;s{' '}
@@ -173,7 +176,7 @@ export default function App() {
             <div className="kpi-card">
               <span className="kpi-card__label">Active Blind Ventures</span>
               <strong className="kpi-card__value">{portfolioTotals.ventureCount}</strong>
-              <span className="kpi-card__sub">Standardized EPIC-MVP Protocol</span>
+              <span className="kpi-card__sub">Pre-NDA Blind Teaser Cohort</span>
             </div>
             <div className="kpi-card">
               <span className="kpi-card__label">Combined Portfolio TAM</span>
@@ -186,7 +189,7 @@ export default function App() {
               <span className="kpi-card__sub">Risk-Adjusted Target Capture</span>
             </div>
             <div className="kpi-card">
-              <span className="kpi-card__label">Year 5 Combined Exit CARR</span>
+              <span className="kpi-card__label">Year 5 Combined Target CARR</span>
               <strong className="kpi-card__value">{portfolioTotals.carr}</strong>
               <span className="kpi-card__sub">$385K Phased Raise / Venture</span>
             </div>
@@ -217,7 +220,10 @@ export default function App() {
           </div>
 
           <div className="accordion-controls">
-            <label className="mode-toggle" title="When enabled, opening one teaser automatically collapses the others using native HTML details[name]">
+            <label
+              className="mode-toggle"
+              title="When enabled, opening one teaser automatically collapses the others using native HTML details[name]"
+            >
               <input
                 type="checkbox"
                 checked={exclusiveMode}
@@ -399,10 +405,10 @@ export default function App() {
               </button>
               <a
                 className="btn btn--primary"
-                href={`mailto:ventures@enterprisepicard.io?subject=${encodeURIComponent(
+                href={`mailto:?subject=${encodeURIComponent(
                   `Bilateral NDA Request — ${ndaModalVenture.codename} (${ndaModalVenture.id})`
                 )}&body=${encodeURIComponent(
-                  `Please issue the bilateral NDAme execution link to unlock the full Notion Data Room for ${ndaModalVenture.abstractedTitle} (Notion Teaser ID: ${ndaModalVenture.id}).`
+                  `Please issue the bilateral NDA execution link to unlock the full Data Room for ${ndaModalVenture.abstractedTitle} (Notion Teaser ID: ${ndaModalVenture.id}).`
                 )}`}
               >
                 Dispatch NDA Execution Link via Email

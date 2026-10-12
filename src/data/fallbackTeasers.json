@@ -1,355 +1,355 @@
 {
   "source": "notion-snapshot",
-  "syncedAt": "2026-10-12T21:55:00.000Z",
+  "syncedAt": "2026-10-12T22:24:00.000Z",
   "portfolioMasterPageId": "3f7fff10-6abc-81d9-9e3a-de2c7f074ac7",
   "teasers": [
     {
       "id": "3f7fff10-6abc-81ee-8c1f-fc65e5b6084b",
       "codename": "Project Alpha",
-      "abstractedTitle": "Project Alpha — Autonomous Performance-Commerce & Contextual Yield Engine",
-      "sector": "Autonomous MarTech & Performance Commerce",
+      "abstractedTitle": "Project Alpha: Autonomous Social Commerce & Monetization Engine",
+      "sector": "Autonomous Social Commerce & Monetization Engine",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "An AI-native B2B SaaS platform that autonomously transforms long-form digital content into high-converting, compliance-verified monetization assets across fragmented partner ecosystems with zero manual overhead.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "A cloud-based automation platform that enables digital publishers and creators to instantly deploy structured, search-optimized retail storefronts and monetize audience traffic without inventory or technical overhead.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
       "metrics": {
-        "tam": "$19.2B",
-        "sam": "$2.4B",
-        "som": "$16.8M",
-        "tcv": "$1,248 – $3,140",
-        "carr": "$5.41M"
+        "tam": "$57.8B",
+        "sam": "$3.2B",
+        "som": "$52.0M",
+        "tcv": "$441.00",
+        "carr": "$17.03M – $21.14M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Alpha — Autonomous Performance-Commerce & Contextual Yield Engine"
+          "field": "Abstracted Project Title",
+          "value": "Project Alpha: Autonomous Social Commerce & Monetization Engine"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "An AI-native B2B SaaS platform that autonomously transforms long-form digital content into high-converting, compliance-verified monetization assets across fragmented partner ecosystems with zero manual overhead."
+          "field": "Minimalist Elevator Pitch",
+          "value": "A cloud-based automation platform that enables digital publishers and creators to instantly deploy structured, search-optimized retail storefronts and monetize audience traffic without inventory or technical overhead."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for security hardening & launch readiness.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to reach cash-flow break-even at Month 16.\n• Phase 3 (Scale Expansion — Month 18+): Non-dilutive Revenue-Based Financing (RBF) or optional $1.5M–$2.0M priced Seed extension at >=$12M–$15M valuation."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal treasury allocation (0% dilution) to complete security hardening, live API licensing, and onboard 100 paying users ($35K ARR gate).\n  • Phase 2 (Growth Seed — $350,000): Strategic Angel & Creator Syndicate Post-Money SAFE ($3.5M Cap, 20% Discount) to scale past 1,000 paying users.\n  • Phase 3 (Scale — Self-Sustaining): Operating cash flow reinvestment / non-dilutive Revenue-Based Financing (RBF) at >85% gross margins."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$19.2 Billion (Global performance partner ecosystem & content monetization software market)"
+          "value": "$57.8 Billion (Global Affiliate Marketing Industry $27.8B + Creator Economy Monetization Software $30.0B+)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$2.4 Billion (English-language digital publishers, niche media operators, and creator enterprises actively deploying automated monetization workflows)"
+          "value": "$3.2 Billion (50M+ global content creators & micro-publishers seeking automated e-commerce monetization)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$16.8 Million (5-Year target capturing ~4,500 active paying accounts at ~$112 blended ARPU)"
+          "value": "$52.0 Million ARR (150,000 target active publishers & niche storefront operators)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$1,248 (12-Month Initial Cohort Contract Value) to $3,140 (28-Month Lifetime Contract Value at $112.14 blended monthly ARPU; Enterprise Annual ACV up to $2,388/yr)"
+          "value": "$441.00 Blended Customer LTV ($348 ACV on $29/mo Pro Tier; $948 ACV on $79/mo Agency Tier; 14-month average customer tenure)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$178,800 (Year 1 Exit CARR) scaling to $1,540,000 (Year 3 Exit CARR) and $5,410,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $35,000\n  • Year 1 Projected Exit CARR: $411,000 (1,200 active subscribers)\n  • Year 5 Target CARR: $17.03M – $21.14M"
         }
       ]
     },
     {
       "id": "3f7fff10-6abc-8105-b73f-f82f278571df",
       "codename": "Project Beacon",
-      "abstractedTitle": "Project Beacon — Sovereign Residential Telemetry & Ambient Display Architecture",
-      "sector": "Connected Home & Privacy-First Consumer SaaS",
+      "abstractedTitle": "Project Beacon: Ambient Display & Connected Screen Operating Layer",
+      "sector": "Ambient Display & Connected Screen Operating Layer",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "A privacy-first consumer cloud platform that repurposes idle consumer hardware into encrypted, zero-maintenance ambient household command centers without ad-tech surveillance or proprietary hardware lock-in.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "A lightweight software utility that transforms idle consumer televisions and commercial monitors into dynamic, persistent ambient information dashboards.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
       "metrics": {
-        "tam": "$14.8B",
-        "sam": "$1.85B",
-        "som": "$24.0M",
-        "tcv": "$72 – $240",
-        "carr": "$5.18M"
+        "tam": "$42.0B",
+        "sam": "$2.4B",
+        "som": "$30.0M",
+        "tcv": "$89.82",
+        "carr": "$2.20M – $4.40M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Beacon — Sovereign Residential Telemetry & Ambient Display Architecture"
+          "field": "Abstracted Project Title",
+          "value": "Project Beacon: Ambient Display & Connected Screen Operating Layer"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "A privacy-first consumer cloud platform that repurposes idle consumer hardware into encrypted, zero-maintenance ambient household command centers without ad-tech surveillance or proprietary hardware lock-in."
+          "field": "Minimalist Elevator Pitch",
+          "value": "A lightweight software utility that transforms idle consumer televisions and commercial monitors into dynamic, persistent ambient information dashboards."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for production hardening & launch readiness.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to fund acquisition & reach Month 16 break-even.\n• Phase 3 (Scale Expansion — Month 18+): Self-sustaining operating cash flow (>83% gross margin) + optional non-dilutive RBF."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal founder allocation (0% dilution) for hardware cast receiver registration, burn-in protection, and 50 seed beta users.\n  • Phase 2 (Growth Seed — $350,000): Strategic Angel Post-Money SAFE ($3.5M Cap, 20% Discount) for consumer smart-home & hospitality B2B distribution.\n  • Phase 3 (Scale — Self-Sustaining): Operating cash flow reinvestment at >85% software gross margins."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$14.8 Billion (Global smart home ambient display, digital frame, and connected family organization market)"
+          "value": "$42.0 Billion (Global Smart Home & Ambient IoT Display Market)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$1.85 Billion (North American & European broadband households utilizing multi-calendar sync and dedicated ambient display hardware/software)"
+          "value": "$2.4 Billion (High-intent smart home adopters, remote workers, short-term rental hosts, and SMB waiting rooms)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$24.0 Million (Capturing ~200,000 households across recurring subscription and lifetime license tiers within 5 years)"
+          "value": "$30.0 Million ARR (50,000+ multi-screen consumer & commercial prosumer subscribers)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$72 – $240 (Consumer Subscription LTV / Lifetime Pass TCV; B2B/Pro Fleet deployments up to $1,200/yr)"
+          "value": "$89.82 Blended Customer LTV ($49.00–$59.88 ACV at $4.99/mo Pro Tier over 18-month average retention; $79 hardware bundle option)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$168,000 (Year 1 Exit CARR) scaling to $1,480,000 (Year 3 Exit CARR) and $5,180,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $12,000\n  • Year 1 Projected Exit CARR: $31,042 – $71,856 (1,200 active subscribers)\n  • Year 5 Target CARR: $2.20M – $4.40M"
         }
       ]
     },
     {
       "id": "3f7fff10-6abc-81f7-80ee-f60a9cba07e7",
       "codename": "Project Crystalline",
-      "abstractedTitle": "Project Crystalline — Decentralized Edge-Computed Spatial Collaboration Fabric",
-      "sector": "WebRTC Edge Compute & Spatial Collaboration",
+      "abstractedTitle": "Project Crystalline: Persistent AI Context & Spatial Knowledge Substrate",
+      "sector": "Persistent AI Context & Spatial Knowledge Substrate",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "A zero-trust, peer-to-peer spatial workspace that offloads real-time communication and generative AI synthesis directly to client edge hardware, eliminating centralized cloud media costs while guaranteeing cryptographic sovereignty.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "An infrastructure protocol and visual workspace that provides autonomous software systems and enterprise teams with persistent, verifiable long-term memory and context retrieval.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
       "metrics": {
-        "tam": "$42.0B",
-        "sam": "$4.8B",
-        "som": "$38.0M",
-        "tcv": "$1,440 – $4,800",
-        "carr": "$5.52M"
+        "tam": "$28.0B",
+        "sam": "$2.4B",
+        "som": "$30.0M",
+        "tcv": "$882.00 – $11,988.00",
+        "carr": "$21.59M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Crystalline — Decentralized Edge-Computed Spatial Collaboration Fabric"
+          "field": "Abstracted Project Title",
+          "value": "Project Crystalline: Persistent AI Context & Spatial Knowledge Substrate"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "A zero-trust, peer-to-peer spatial workspace that offloads real-time communication and generative AI synthesis directly to client edge hardware, eliminating centralized cloud media costs while guaranteeing cryptographic sovereignty."
+          "field": "Minimalist Elevator Pitch",
+          "value": "An infrastructure protocol and visual workspace that provides autonomous software systems and enterprise teams with persistent, verifiable long-term memory and context retrieval."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for WebRTC signaling auth & cryptographic hardening.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to scale developer & enterprise team adoption.\n• Phase 3 (Scale Expansion — Month 18+): Self-sustaining cash flow (>90% gross margin due to zero-cloud-GPU architecture) or strategic Series A."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for cryptographic memory verification, HNSW indexing, and 50 seed developer teams.\n  • Phase 2 (Growth Seed — $350,000): Strategic AI Syndicate Post-Money SAFE ($3.5M Cap, 20% Discount) for developer ecosystem & enterprise node adoption.\n  • Phase 3 (Scale — Self-Sustaining): Operating profit reinvestment (>85% gross margins)."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$42.0 Billion (Global team collaboration, virtual workspace, and real-time communication software market)"
+          "value": "$28.0 Billion (Agentic AI Infrastructure & Enterprise Vector Memory Market)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$4.8 Billion (Privacy-sensitive engineering organizations, remote-first agencies, and Web3/infosec collectives requiring sovereign workspaces)"
+          "value": "$2.4 Billion (AI engineering teams, autonomous agent builders, and mid-market enterprise knowledge operators)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$38.0 Million (5-Year target capturing ~4,000–5,000 high-security organizational teams)"
+          "value": "$30.0 Million ARR (50,000 active developer & enterprise subscription seats)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$1,440 – $4,800 (Multi-seat Team & Sovereign Enterprise Annual/Multi-Year Contract Value)"
+          "value": "$882.00 – $11,988.00 ($588 ACV Developer Tier at $49/mo; $2,988 ACV Team Tier at $249/mo; $11,988 ACV Dedicated Enterprise Node at $999/mo)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$182,000 (Year 1 Exit CARR) scaling to $1,590,000 (Year 3 Exit CARR) and $5,520,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $45,000\n  • Year 1 Projected Exit CARR: $304,819 – $705,600 (1,200 active subscribers)\n  • Year 5 Target CARR: $21.59 Million"
         }
       ]
     },
     {
       "id": "3f7fff10-6abc-81ac-bf4d-c6755fa84c1d",
       "codename": "Project Shield",
-      "abstractedTitle": "Project Shield — Cryptographic Bilateral Covenant & Identity Verification Utility",
-      "sector": "LegalTech & Cryptographic Covenant Infrastructure",
+      "abstractedTitle": "Project Shield: Automated Bilateral Legal Agreement & Compliance Utility",
+      "sector": "Automated Bilateral Legal Agreement & Compliance Utility",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "A high-velocity legal-tech utility that compresses bilateral confidentiality negotiation, biometric/SMS identity verification, and tamper-evident execution into a 60-second mobile-first workflow with viral counterparty acquisition.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "A zero-friction document automation tool that generates, distributes, and tracks standardized bilateral confidentiality agreements in seconds.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
       "metrics": {
-        "tam": "$28.4B",
-        "sam": "$3.1B",
-        "som": "$29.5M",
-        "tcv": "$840 – $2,970",
-        "carr": "$5.35M"
+        "tam": "$18.0B",
+        "sam": "$2.4B",
+        "som": "$30.0M",
+        "tcv": "$270.00",
+        "carr": "$6.61M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Shield — Cryptographic Bilateral Covenant & Identity Verification Utility"
+          "field": "Abstracted Project Title",
+          "value": "Project Shield: Automated Bilateral Legal Agreement & Compliance Utility"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "A high-velocity legal-tech utility that compresses bilateral confidentiality negotiation, biometric/SMS identity verification, and tamper-evident execution into a 60-second mobile-first workflow with viral counterparty acquisition."
+          "field": "Minimalist Elevator Pitch",
+          "value": "A zero-friction document automation tool that generates, distributes, and tracks standardized bilateral confidentiality agreements in seconds."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for ESIGN/UETA cryptographic audit trails & webhook security.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to fuel viral counterparty PLG loops.\n• Phase 3 (Scale Expansion — Month 18+): Self-sustaining cash flow & API white-label enterprise licensing."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for UPL disclaimers, signed blob security, and 50 initial founder accounts.\n  • Phase 2 (Growth Seed — $350,000): Strategic Angel Post-Money SAFE ($3.5M Cap, 20% Discount) to scale viral counterparty acquisition loop.\n  • Phase 3 (Scale — Self-Sustaining): Reinvestment of high-margin (>85%) recurring SaaS cash flows."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$28.4 Billion (Global e-signature, contract lifecycle management, and digital agreement infrastructure market)"
+          "value": "$18.0 Billion (Global LegalTech & Contract Lifecycle Management Market)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$3.1 Billion (Rapid-execution confidentiality agreements, M&A deal rooms, venture studios, and independent creative/consulting practices)"
+          "value": "$2.4 Billion (Startup founders, angel syndicates, agencies, and SMB deal teams requiring rapid pre-discussion protection)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$29.5 Million (5-Year target capturing ~4,600 paying Pro/Corporate accounts plus transactional API volume)"
+          "value": "$30.0 Million ARR (50,000 active recurring business subscribers)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$840 – $2,970 (Pro & Corporate Deal-Room Multi-Year Contract Value)"
+          "value": "$270.00 Blended Customer LTV ($180 ACV at $15/mo Growth Unlimited Tier over 18-month average customer tenure; $60 ACV at $5/mo Founder Tier)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$175,000 (Year 1 Exit CARR) scaling to $1,510,000 (Year 3 Exit CARR) and $5,350,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $18,000\n  • Year 1 Projected Exit CARR: $93,312 – $216,000 (1,200 active subscribers)\n  • Year 5 Target CARR: $6.61 Million"
         }
       ]
     },
     {
       "id": "3f7fff10-6abc-8168-a919-f631594ddff3",
       "codename": "Project Vanguard",
-      "abstractedTitle": "Project Vanguard — Multi-Agent Cognitive Orchestration & DevSecOps Control Plane",
-      "sector": "AI Developer Tools & Autonomous DevSecOps",
+      "abstractedTitle": "Project Vanguard: On-Demand Technical Audit & Code Verification Marketplace",
+      "sector": "On-Demand Technical Audit & Code Verification Marketplace",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "An enterprise command-and-control plane that orchestrates, sandboxes, and audits autonomous software engineering agents across distributed cloud runtimes with deterministic cost and security governance.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "A two-sided technical marketplace and automated analysis engine connecting software teams with instant AI-assisted and human-verified code audits.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
       "metrics": {
-        "tam": "$36.5B",
-        "sam": "$5.2B",
-        "som": "$45.0M",
-        "tcv": "$2,400 – $9,600",
-        "carr": "$5.89M"
+        "tam": "$12.0B",
+        "sam": "$2.4B",
+        "som": "$30.0M",
+        "tcv": "$702.00",
+        "carr": "$17.18M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Vanguard — Multi-Agent Cognitive Orchestration & DevSecOps Control Plane"
+          "field": "Abstracted Project Title",
+          "value": "Project Vanguard: On-Demand Technical Audit & Code Verification Marketplace"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "An enterprise command-and-control plane that orchestrates, sandboxes, and audits autonomous software engineering agents across distributed cloud runtimes with deterministic cost and security governance."
+          "field": "Minimalist Elevator Pitch",
+          "value": "A two-sided technical marketplace and automated analysis engine connecting software teams with instant AI-assisted and human-verified code audits."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for container sandbox isolation & RBAC hardening.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to scale open-core CLI to Enterprise Control Plane conversion.\n• Phase 3 (Scale Expansion — Month 18+): Self-sustaining cash flow or strategic Series A expansion."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for zero-retention privacy controls, bounty escrow locking, and 50 seed engineering teams.\n  • Phase 2 (Growth Seed — $350,000): Strategic DevTools Angel Post-Money SAFE ($3.5M Cap, 20% Discount) to scale reviewer liquidity and GitHub marketplace growth.\n  • Phase 3 (Scale — Self-Sustaining): Operating cash flow reinvestment from SaaS seats + 15% bounty take-rate."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$36.5 Billion (Global AI-assisted software engineering, DevSecOps automation, and cloud orchestration market)"
+          "value": "$12.0 Billion (Static Analysis, DevSecOps & Technical Talent Marketplace)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$5.2 Billion (Mid-market and enterprise engineering teams operating multi-agent coding workflows requiring SOC2/RBAC governance)"
+          "value": "$2.4 Billion (High-velocity software startups, open-source maintainers, and independent senior staff engineers)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$45.0 Million (5-Year target across Pro engineering teams and Enterprise VPC control-plane deployments)"
+          "value": "$30.0 Million ARR (50,000 active developer & engineering team subscriptions)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$2,400 – $9,600 (Annual/Multi-Year Team & Enterprise Control Plane Contract Value)"
+          "value": "$702.00 Blended Customer LTV ($468 ACV at $39/mo Team AI Tier over 18-month retention + 15% marketplace commission on expert bounties)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$196,000 (Year 1 Exit CARR) scaling to $1,680,000 (Year 3 Exit CARR) and $5,890,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $35,000\n  • Year 1 Projected Exit CARR: $242,611 – $561,600 (1,200 active subscribers)\n  • Year 5 Target CARR: $17.18 Million"
         }
       ]
     },
     {
       "id": "3f7fff10-6abc-812c-b10c-e5c226cf4e61",
       "codename": "Project Nexus",
-      "abstractedTitle": "Project Nexus — Verified Executive Guild & Algorithmic Peer-Advisory Network",
-      "sector": "Executive FinTech & Algorithmic Peer Advisory",
+      "abstractedTitle": "Project Nexus: Private Executive & Capital Allocation Matchmaking Network",
+      "sector": "Private Executive & Capital Allocation Matchmaking Network",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "An AI-curated executive network and peer-advisory platform that pairs verified C-suite leaders into confidential mastermind cohorts and high-signal strategic deal rooms at a fraction of legacy syndicate costs.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "A gated, verification-first digital network facilitating direct, confidential introductions between vetted company executives and accredited capital allocators.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
       "metrics": {
-        "tam": "$11.4B",
-        "sam": "$1.6B",
-        "som": "$26.5M",
-        "tcv": "$3,000 – $9,000",
-        "carr": "$5.64M"
+        "tam": "$9.0B",
+        "sam": "$2.4B",
+        "som": "$30.0M",
+        "tcv": "$882.00 – $2,388.00",
+        "carr": "$21.59M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Nexus — Verified Executive Guild & Algorithmic Peer-Advisory Network"
+          "field": "Abstracted Project Title",
+          "value": "Project Nexus: Private Executive & Capital Allocation Matchmaking Network"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "An AI-curated executive network and peer-advisory platform that pairs verified C-suite leaders into confidential mastermind cohorts and high-signal strategic deal rooms at a fraction of legacy syndicate costs."
+          "field": "Minimalist Elevator Pitch",
+          "value": "A gated, verification-first digital network facilitating direct, confidential introductions between vetted company executives and accredited capital allocators."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for KYB/executive verification & billing automation.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to scale Founding 100 Charter cohorts.\n• Phase 3 (Scale Expansion — Month 18+): High-margin annual membership cash flow & corporate board sponsorship expansion."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for SEC Rule 506(c) compliance gates, pitch PDF security, and 50 founding members.\n  • Phase 2 (Growth Seed — $350,000): Strategic Syndicate Post-Money SAFE ($3.5M Cap, 20% Discount) for executive & family office onboarding.\n  • Phase 3 (Scale — Self-Sustaining): Operating cash flow reinvestment (>85% gross margins)."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$11.4 Billion (Global executive peer-advisory networks, C-suite mastermind syndicates, and executive coaching market)"
+          "value": "$9.0 Billion (Private Equity/VC Syndication & Executive Networking Market)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$1.6 Billion (North American & European founder/CEOs of $2M–$100M revenue companies seeking digital-first peer advisory)"
+          "value": "$2.4 Billion (Vetted growth-stage founders, family offices, angel syndicates, and fractional C-suite executives)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$26.5 Million (5-Year target capturing ~2,000–3,500 verified executive members & corporate charter sponsors)"
+          "value": "$30.0 Million ARR (50,000 active executive and accredited fundraiser subscribers)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$3,000 – $9,000 (Annual Charter Membership ACV of $3,000/yr across 1-to-3 year executive retention cohorts)"
+          "value": "$882.00 – $2,388.00 ($588 ACV Founder Premium Tier at $49/mo; $2,388 ACV Accredited Fundraiser Tier at $199/mo over 18-month tenure)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$188,000 (Year 1 Exit CARR) scaling to $1,620,000 (Year 3 Exit CARR) and $5,640,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $45,000\n  • Year 1 Projected Exit CARR: $304,819 – $705,600 (1,200 active subscribers)\n  • Year 5 Target CARR: $21.59 Million"
         }
       ]
     },
     {
       "id": "3f7fff10-6abc-8155-8a8f-e35974b44d07",
       "codename": "Project Keystone",
-      "abstractedTitle": "Project Keystone — Algorithmic Commercial Territory & Multi-Unit Asset Exchange",
-      "sector": "PropTech / Institutional Franchise & Territory Exchange",
+      "abstractedTitle": "Project Keystone: Commercial Business Transfer & Turnkey Deployment Exchange",
+      "sector": "Commercial Business Transfer & Turnkey Deployment Exchange",
       "status": "Pre-NDA Blind Teaser",
-      "elevatorPitch": "A data-driven institutional marketplace and spatial intelligence platform that automates regulatory disclosure compliance, territory mapping, and qualified buyer matching for multi-unit commercial expansion.",
-      "intendedRaise": "$385,000 Total Target ($35K Phase 1 Internal Studio Incubation -> $350K Phase 2 Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow / RBF)",
+      "elevatorPitch": "A B2B transaction platform that streamlines the listing, diligence, escrow, and physical deployment of multi-unit commercial business operations.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
       "metrics": {
-        "tam": "$49.5B",
-        "sam": "$3.8B",
-        "som": "$52.0M",
-        "tcv": "$3,600 – $14,400",
-        "carr": "$6.12M"
+        "tam": "$35.0B",
+        "sam": "$2.4B",
+        "som": "$30.0M",
+        "tcv": "$3,582.00+",
+        "carr": "$87.69M"
       },
       "tableRows": [
         {
-          "field": "Abstracted, Vague Project Title",
-          "value": "Project Keystone — Algorithmic Commercial Territory & Multi-Unit Asset Exchange"
+          "field": "Abstracted Project Title",
+          "value": "Project Keystone: Commercial Business Transfer & Turnkey Deployment Exchange"
         },
         {
-          "field": "Elevator Pitch (Minimalist Pre-NDA)",
-          "value": "A data-driven institutional marketplace and spatial intelligence platform that automates regulatory disclosure compliance, territory mapping, and qualified buyer matching for multi-unit commercial expansion."
+          "field": "Minimalist Elevator Pitch",
+          "value": "A B2B transaction platform that streamlines the listing, diligence, escrow, and physical deployment of multi-unit commercial business operations."
         },
         {
           "field": "Intended Raise & Phases",
-          "value": "Total Target Raise: $385,000 across 3 gated phases:\n• Phase 1 (Internal Studio Incubation — Months 1–2): $35,000 Studio Capital Allocation for FTC FDD 14-day cryptographic receipt compliance & spatial territory engine hardening.\n• Phase 2 (External Seed Round — Months 3–18): $350,000 via Delaware C-Corp Post-Money SAFE ($3.5M Valuation Cap, 20% Discount) to onboard emerging & mid-market franchisor brands.\n• Phase 3 (Scale Expansion — Month 18+): Self-sustaining SaaS + qualified lead-fee marketplace cash flow."
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for FTC Part 436 FDD disclosures, dual-signature Stripe escrow gates, and 20 anchor franchise brands.\n  • Phase 2 (Growth Seed — $350,000): Strategic PropTech/Commercial Syndicate Post-Money SAFE ($3.5M Cap, 20% Discount) for national broker onboarding.\n  • Phase 3 (Scale — Self-Sustaining): Reinvestment of recurring listing fees + closing escrow commissions."
         },
         {
           "field": "TAM (Total Addressable Market)",
-          "value": "$49.5 Billion (Global franchise development, broker commissions, and commercial territory expansion software/services)"
+          "value": "$35.0 Billion (Franchise Resale, Commercial Brokerage & Turnkey Deployment Market)"
         },
         {
           "field": "SAM (Serviceable Addressable Market)",
-          "value": "$3.8 Billion (North American emerging and mid-market multi-unit brands spending on digital portal listings, FDD compliance, and buyer qualification)"
+          "value": "$2.4 Billion (Multi-unit franchise operators, commercial business brokers, and regional brand franchisors)"
         },
         {
           "field": "SOM (Serviceable Obtainable Market)",
-          "value": "$52.0 Million (5-Year target capturing ~1,500+ franchisor brands and institutional multi-unit operator groups)"
+          "value": "$30.0 Million+ ARR (50,000 active commercial listings & operator accounts)"
         },
         {
           "field": "TCV (Total Contract Value)",
-          "value": "$3,600 – $14,400 (Annual/Multi-Year Franchisor Portal Subscription + Verified Lead-Flow Contract Value)"
+          "value": "$3,582.00+ Base Subscription LTV ($2,388 ACV at $199/mo Listing Tier over 18-month tenure + 1.5%–2.5% transaction escrow fee upon closing)"
         },
         {
           "field": "CARR (Committed Annual Recurring Revenue)",
-          "value": "$210,000 (Year 1 Exit CARR) scaling to $1,790,000 (Year 3 Exit CARR) and $6,120,000 (Year 5 Exit CARR)"
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $120,000\n  • Year 1 Projected Exit CARR: $1,237,939 – $2,865,600 (1,200 active listings)\n  • Year 5 Target CARR: $87.69 Million"
         }
       ]
     }

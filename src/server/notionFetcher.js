@@ -9,43 +9,66 @@ function plainTextFromRichText(richTextArray = []) {
 }
 
 /**
- * Extracts a short headline value (e.g. "$19.2B" or "$5.41M") from a verbose Notion metric cell.
+ * Normalizes unit words ("Million" -> "M", "Billion" -> "B") into compact financial notation.
  */
-function extractShortMetric(rawText = '', metricType = '') {
+function normalizeCompactCurrency(str = '') {
+  return str
+    .replace(/\s*Billion/gi, 'B')
+    .replace(/\s*Million/gi, 'M')
+    .replace(/\s*Thousand/gi, 'K')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Extracts a short headline value (e.g. "$57.8B", "$17.03M – $21.14M", "$21.59M") from a verbose Notion metric cell.
+ */
+export function extractShortMetric(rawText = '', metricType = '') {
   if (!rawText) return '—';
 
   if (metricType === 'carr') {
-    const year5Match = rawText.match(/\$([\d.,]+)\s*(Million|Billion|M|B)\s*\(Year 5/i);
-    if (year5Match) {
-      const unit = year5Match[2].toLowerCase().startsWith('b') ? 'B' : 'M';
-      return `$${year5Match[1]}${unit}`;
+    // 1. Match "Year 5 ... : $17.03M – $21.14M" or "Year 5 ... : $21.59 Million"
+    const year5AfterLabel = rawText.match(
+      /Year\s*5[^$]*(\$[\d.,]+\s*(?:Million|Billion|M|B|K)?(?:\s*[–-]\s*\$[\d.,]+\s*(?:Million|Billion|M|B|K)?)?)/i
+    );
+    if (year5AfterLabel) {
+      return normalizeCompactCurrency(year5AfterLabel[1]);
     }
-    const allDollarMatches = [...rawText.matchAll(/\$([\d,]+(?:\.\d+)?)/g)];
-    if (allDollarMatches.length > 0) {
-      const lastRaw = allDollarMatches[allDollarMatches.length - 1][1].replace(/,/g, '');
-      const numeric = Number.parseFloat(lastRaw);
-      if (!Number.isNaN(numeric) && numeric >= 1_000_000) {
-        return `$${(numeric / 1_000_000).toFixed(2)}M`;
-      }
+
+    // 2. Match "$5.41M (Year 5 ...)" format where Year 5 follows the dollar figure
+    const year5AfterValue = rawText.match(
+      /(\$[\d.,]+\s*(?:Million|Billion|M|B|K)?)\s*\(Year\s*5/i
+    );
+    if (year5AfterValue) {
+      return normalizeCompactCurrency(year5AfterValue[1]);
+    }
+
+    // 3. Fallback: pick the last dollar amount or range in the CARR cell (avoiding Pre-Launch $0)
+    const allTokens = [
+      ...rawText.matchAll(
+        /\$[\d.,]+\s*(?:Million|Billion|M|B|K)?(?:\s*[–-]\s*\$[\d.,]+\s*(?:Million|Billion|M|B|K)?)?/gi
+      ),
+    ];
+    if (allTokens.length > 0) {
+      const lastToken = allTokens[allTokens.length - 1][0];
+      return normalizeCompactCurrency(lastToken);
     }
   }
 
   if (metricType === 'tcv') {
-    const rangeMatch = rawText.match(/(\$[\d,]+\s*[–-]\s*\$[\d,]+)/);
+    const rangeMatch = rawText.match(/(\$[\d,.]+\s*[–-]\s*\$[\d,.]+\+?)/);
     if (rangeMatch) return rangeMatch[1];
-    const twoPrices = [...rawText.matchAll(/\$[\d,]+/g)];
-    if (twoPrices.length >= 2) {
-      return `${twoPrices[0][0]} – ${twoPrices[1][0]}`;
-    }
+    const firstCurrencyWithPlus = rawText.match(/\$[\d,.]+\+?/);
+    if (firstCurrencyWithPlus) return firstCurrencyWithPlus[0];
   }
 
-  const billionMatch = rawText.match(/\$([\d.,]+)\s*Billion/i);
+  const billionMatch = rawText.match(/\$([\d.,]+)\+?\s*Billion/i);
   if (billionMatch) return `$${billionMatch[1]}B`;
 
-  const millionMatch = rawText.match(/\$([\d.,]+)\s*Million/i);
+  const millionMatch = rawText.match(/\$([\d.,]+)\+?\s*Million/i);
   if (millionMatch) return `$${millionMatch[1]}M`;
 
-  const firstCurrency = rawText.match(/\$[\d,.]+[BMK]?/i);
+  const firstCurrency = rawText.match(/\$[\d,.]+[BMK]\b|\$[\d,.]+/i);
   return firstCurrency ? firstCurrency[0] : rawText.slice(0, 24);
 }
 
@@ -111,10 +134,12 @@ async function parseTeaserPage(page, apiKey) {
   const abstractedTitle =
     findRowValue(/abstracted|vague project title/i) || 'Confidential Venture Project';
   const codenameMatch = abstractedTitle.match(/^(Project\s+[A-Za-z0-9]+)/i);
-  const codename = codenameMatch ? codenameMatch[1] : abstractedTitle.split('—')[0].trim();
+  const codename = codenameMatch
+    ? codenameMatch[1]
+    : abstractedTitle.split(/\s*[:—–]\s*/)[0].trim();
 
-  const subtitleParts = abstractedTitle.split('—');
-  const sector = subtitleParts[1] ? subtitleParts[1].trim() : 'Autonomous Enterprise Venture';
+  const subtitleParts = abstractedTitle.split(/\s*[:—–]\s*/);
+  const sector = subtitleParts[1] ? subtitleParts[1].trim() : 'Confidential Venture';
 
   const elevatorPitch = findRowValue(/elevator pitch/i);
   const intendedRaise = findRowValue(/intended raise/i);
