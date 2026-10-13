@@ -352,6 +352,106 @@
           "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $120,000\n  • Year 1 Projected Exit CARR: $1,237,939 – $2,865,600 (1,200 active listings)\n  • Year 5 Target CARR: $87.69 Million"
         }
       ]
+    },
+    {
+      "id": "3f8fff10-6abc-81c8-b660-fa98622ff57d",
+      "codename": "Project Prism",
+      "abstractedTitle": "Project Prism: High-Density Optical Data Codec & Visual Context Compression Engine",
+      "sector": "High-Density Optical Data Codec & Visual Context Compression Engine",
+      "status": "Pre-NDA Blind Teaser",
+      "elevatorPitch": "A high-density optical data-compression protocol and cloud codec engine that packs massive text and structured telemetry streams into lossless, cryptographically verified visual matrices to dramatically reduce AI token and bandwidth costs.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
+      "metrics": {
+        "tam": "$3.8B",
+        "sam": "$420.0M",
+        "som": "$16.4M",
+        "tcv": "$498.00 – $2,865.60",
+        "carr": "$7.80M – $16.40M"
+      },
+      "tableRows": [
+        {
+          "field": "Abstracted Project Title",
+          "value": "Project Prism: High-Density Optical Data Codec & Visual Context Compression Engine"
+        },
+        {
+          "field": "Minimalist Elevator Pitch",
+          "value": "A high-density optical data-compression protocol and cloud codec engine that packs massive text and structured telemetry streams into lossless, cryptographically verified visual matrices to dramatically reduce AI token and bandwidth costs."
+        },
+        {
+          "field": "Intended Raise & Phases",
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for SHA-256 optical payload attestation, Cloud HTTP MCP endpoints, and 50 initial AI engineering teams.\n  • Phase 2 (Growth Seed — $350,000): Strategic AI Infrastructure Post-Money SAFE ($3.5M Cap, 20% Discount) to scale Vision-LLM SDK integrations and edge codec distribution.\n  • Phase 3 (Scale — Self-Sustaining): Operating cash flow reinvestment at ~89.6% software gross margins."
+        },
+        {
+          "field": "TAM (Total Addressable Market)",
+          "value": "$3.8 Billion (Global AI Context Compression, Multimodal Data Serialization & Edge Telemetry Infrastructure)"
+        },
+        {
+          "field": "SAM (Serviceable Addressable Market)",
+          "value": "$420.0 Million (Multimodal LLM Developers, Agentic Workflow Teams & Optical Telemetry Pipelines)"
+        },
+        {
+          "field": "SOM (Serviceable Obtainable Market)",
+          "value": "$16.4 Million ARR (5-Year Obtainable Target across AI Engineers, Agentic Product Teams & Enterprise RAG)"
+        },
+        {
+          "field": "TCV (Total Contract Value)",
+          "value": "$498.00 – $2,865.60 ($348 ACV on $29/mo Pro Tier; $2,388 ACV on $199/mo Team Tier; $11,988 ACV on $999/mo Enterprise Tier; 14.4-month average customer tenure)"
+        },
+        {
+          "field": "CARR (Committed Annual Recurring Revenue)",
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $25,000\n  • Year 1 Projected Exit CARR: $155,000 – $277,000\n  • Year 5 Target CARR: $7.80M – $16.40M"
+        }
+      ]
+    },
+    {
+      "id": "3f8fff10-6abc-819f-ba66-cae785f0da41",
+      "codename": "Project Sentinel",
+      "abstractedTitle": "Project Sentinel: Autonomous Cloud QA & Synthetic Verification Platform",
+      "sector": "Autonomous Cloud QA & Synthetic Verification Platform",
+      "status": "Pre-NDA Blind Teaser",
+      "elevatorPitch": "An autonomous quality-assurance and synthetic user-verification platform that automatically inspects, stress-tests, and certifies cloud software deployments in real time before code reaches production.",
+      "intendedRaise": "$385,000 Total Target Across 3 Phases ($35K Phase 1 Incubation -> $350K Phase 2 Growth Seed via Post-Money SAFE at $3.5M Cap / 20% Discount -> Phase 3 Self-Sustaining Cash Flow)",
+      "metrics": {
+        "tam": "$6.8B",
+        "sam": "$780.0M",
+        "som": "$22.8M",
+        "tcv": "$705.60 – $2,865.60",
+        "carr": "$11.40M – $22.80M"
+      },
+      "tableRows": [
+        {
+          "field": "Abstracted Project Title",
+          "value": "Project Sentinel: Autonomous Cloud QA & Synthetic Verification Platform"
+        },
+        {
+          "field": "Minimalist Elevator Pitch",
+          "value": "An autonomous quality-assurance and synthetic user-verification platform that automatically inspects, stress-tests, and certifies cloud software deployments in real time before code reaches production."
+        },
+        {
+          "field": "Intended Raise & Phases",
+          "value": "$385,000 Total Target Across 3 Phases:\n  • Phase 1 (Incubation — $35,000): Internal allocation (0% dilution) for ephemeral BrowserContext isolation, SSRF egress hardening, and 50 initial CI/CD teams.\n  • Phase 2 (Growth Seed — $350,000): Strategic DevTools Post-Money SAFE ($3.5M Cap, 20% Discount) to scale Netlify/GitHub marketplace distribution and multi-site agency onboarding.\n  • Phase 3 (Scale — Self-Sustaining): Operating cash flow reinvestment at ~84.8% software gross margins."
+        },
+        {
+          "field": "TAM (Total Addressable Market)",
+          "value": "$6.8 Billion (Global Automated Software Quality Assurance, Synthetic Monitoring & Cloud E2E Testing Market)"
+        },
+        {
+          "field": "SAM (Serviceable Addressable Market)",
+          "value": "$780.0 Million (CI/CD Deploy-Preview Automated QA, Agentic MCP Testing & Multi-Site Digital Agency Verification)"
+        },
+        {
+          "field": "SOM (Serviceable Obtainable Market)",
+          "value": "$22.8 Million ARR (5-Year Obtainable Target across Pro Dev Teams, Digital Agencies & Enterprise CI/CD)"
+        },
+        {
+          "field": "TCV (Total Contract Value)",
+          "value": "$705.60 – $2,865.60 ($588 ACV on $49/mo Pro Tier; $2,388 ACV on $199/mo Agency Tier; $10,788 ACV on $899/mo Enterprise Tier; 14.2-month average customer tenure)"
+        },
+        {
+          "field": "CARR (Committed Annual Recurring Revenue)",
+          "value": "  • Current Pre-Launch CARR: $0 (MVP Remediation Gate)\n  • Phase 1 Exit CARR (Month 3): $35,000\n  • Year 1 Projected Exit CARR: $224,000 – $385,000\n  • Year 5 Target CARR: $11.40M – $22.80M"
+        }
+      ]
     }
   ]
 }
